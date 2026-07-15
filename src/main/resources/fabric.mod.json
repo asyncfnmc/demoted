@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "demoted",
+  "version": "${version}",
+  "name": "Demoted",
+  "description": "Moves server resource packs down to just above the default pack instead of letting them override every enabled pack.",
+  "authors": ["sinister"],
+  "license": "MIT",
+  "icon": "assets/demoted/icon.png",
+  "environment": "client",
+  "mixins": [
+    {
+      "config": "demoted.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.1.2"
+  }
+}

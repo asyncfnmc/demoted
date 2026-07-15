@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.sinister.demoted.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ResourcePackManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
