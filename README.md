@@ -1,5 +1,9 @@
 # Demoted
 
+<p align="center">
+  <img src="src/main/resources/assets/demoted/icon.png" alt="Demoted icon" width="128" height="128">
+</p>
+
 A tiny client-side Fabric mod for Minecraft 26.1.2 that moves server resource packs to the lowest possible priority, directly above Minecraft's default resources.
 
 This lets your enabled resource packs override server-provided textures while keeping the server pack active for resources that your packs do not replace.
@@ -33,10 +37,6 @@ JAVA_HOME=/path/to/java-25 ./gradlew build
 ```
 
 The distributable jar is written to `build/libs/`.
-
-<p align="center">
-  <img src="src/main/resources/assets/demoted/icon.png" alt="Demoted icon" width="128" height="128">
-</p>
 
 ## License
 
