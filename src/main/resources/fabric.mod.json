@@ -4,8 +4,15 @@
   "version": "${version}",
   "name": "Demoted",
   "description": "Moves server resource packs down to just above the default pack instead of letting them override every enabled pack.",
-  "authors": ["sinister"],
-  "license": "MIT",
+  "authors": [
+    "asyncfn"
+  ],
+  "contact": {
+    "homepage": "https://github.com/asyncfnmc/demoted",
+    "sources": "https://github.com/asyncfnmc/demoted",
+    "issues": "https://github.com/asyncfnmc/demoted/issues"
+  },
+  "license": "Source Available - Personal Use Only, All Rights Reserved",
   "icon": "assets/demoted/icon.png",
   "environment": "client",
   "mixins": [
